@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom part 1</title>
+</head>
+<body>
+
+    <!-- id -->
+    <p id="one"> <span>hello</span> Namaste</p>
+
+    <!-- class -->
+    <ul>
+        <li class="tech">one</li>
+        <li class="tech">two</li>
+        <li class="tech">three</li>
+    </ul>
+
+    <!-- tagname -->
+    <h4>hi</h4>
+    <h4>hello</h4>
+    <h4>G wagon</h4>
+
+    <!-- Query selector -->
+    <h2 class="classs">hi</h2>
+    <h2 id="ids">hlo</h2>
+    <h2>hey</h2>
+
+    <script>
+        // id
+     let x =  document.getElementById("one");
+        console.log(x.innerText);
+
+        // class
+    let y = document.getElementsByClassName("tech")
+    console.log(y[0].innerText );
+
+    y[1].innerText = "Node"
+
+    // tagname
+   let z =  document.getElementsByTagName("h4")
+   console.log(z[2].innerText);
+   z[1].style.color = "green"
+
+//    query selector
+ let a =  document.querySelector(".classs")
+ console.log(a);
+ a.className = "ayush" 
+    </script>
+</body>
+</html>

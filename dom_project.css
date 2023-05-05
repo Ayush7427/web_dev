@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 7px 30px;
+    background-color: #228b22;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+background-color:#000000;
+color:  #ffffff ;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+font-family: 'Amatic SC', cursive;
+font-family: 'Andika', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Poppins', sans-serif;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe4c4;
+    gap: 100px;
+}
+
+main{
+    height: 160px;
+    width: 160px; 
+}
+
+.external{
+    height: 160px;
+    width: 160px;
+    box-shadow: 6px 6px 10px -1px #00000026,6px 6px 10px -1px #ffffffb3;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.internal{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px #00000033 ,inset -4px -4px 6px -1px #ffffffb3, -0.5px -0.5px 0px #ffffff, 0.5px 0.5px 0px #00000026 , 0px 12px 10px -10px #0000000d; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#number , #number1 , #number2{
+    font-weight: 800;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset:472;
+    animation: anim 3s linear forwards;
+}
+
+#circle1{
+    fill: none;
+    stroke: orangered ;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset:472;
+    animation: anima 3s linear forwards;
+}
+
+#circle2{
+    fill: none;
+    stroke: forestgreen;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset:472;
+    animation: animat 3s linear forwards;
+}
+svg{
+    position: absolute;
+    top: 183px;
+}
+
+@keyframes anim {
+    100%{
+        stroke-dashoffset:165;
+    }
+}
+
+@keyframes anima {
+    100%{
+        stroke-dashoffset:57;
+    }
+}
+
+@keyframes animat {
+    100%{
+        stroke-dashoffset:94;
+    }
+}

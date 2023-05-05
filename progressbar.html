@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./progressbar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika:ital,wght@1,700&family=Fira+Sans:wght@900&family=IBM+Plex+Mono:wght@500&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <main>
+        <div class="external">
+        <div class="internal">
+            <div id="number">60%</div>
+        </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+
+    </main>
+
+    <main>
+        <div class="external">
+            <div class="internal">
+                <div id="number1">97%</div>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle id="circle1" cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+
+    </main>
+
+
+    <main>
+        <div class="external">
+        <div class="internal">
+            <div id="number2">80%</div>
+        </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle id="circle2" cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+    
+    </main>
+
+    <script>
+    const numBer = document.getElementById("number")
+    const numBEr = document.getElementById("number1")
+    const numBER = document.getElementById("number2")
+    let i = 1
+    let j = 1
+    let k = 1
+    setInterval(() => {
+        if(i == 65){
+            clearInterval()
+        }
+        else{
+            i++
+            numBer.innerText = i + "%"
+        }
+    } , 47)
+
+    setInterval(() => {
+        if(j == 97){
+            clearInterval()
+        }
+        else{
+            j++
+            numBEr.innerText = j + "%"
+        }
+    } , 30)
+
+    setInterval(() => {
+        if(k == 80){
+            clearInterval()
+        }
+        else{
+            k++
+            numBER.innerText = k + "%"
+        }
+    } , 35)
+
+  
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+
+        <label for="Number">Number 1</label> <br>
+        <input type="number" id="num" value=""> <br>
+
+        <label for="Number">Number 2</label> <br>
+        <input type="text" id="numb" value=""> <br>
+
+        <span id="spa"> </span> <br>
+
+        <button id="btn">Result</button> <br>
+        <button id="res">Reset</button>
+
+    </main>
+
+    <script>
+    const c =  document.getElementById("btn")
+    const d =  document.getElementById("res")
+    const e =  document.getElementById("spa")
+
+    c.addEventListener("click" , () => {
+    const a =  Number(document.getElementById("num").value)
+    const b =  Number(document.getElementById("numb").value)
+    console.log(a);
+    console.log(b);
+    
+    let q  = a + b
+    e.innerText = q
+    })
+
+
+    d.addEventListener("click" , () => {
+        let t = 0
+        console.log(t);
+        a.innerText = t
+        b.innerText = t
+    })
+    </script>
+</body>
+</html>

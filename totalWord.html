@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        textarea{
+            border: 2px solid #0000ffcf;
+            border-radius: 7px;
+            padding: 20px 30px;
+            font-weight: 800;
+            font-size: larger;
+        }
+       main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       }
+       #sp1 , #sp2{
+        margin: 10px;
+        font-weight: 900;
+        color: #228b22;
+       }
+       #btn{
+        padding: 5px 30px;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+        background-color: #ff4400d9;
+        color: #ffffff;
+        border-radius: 5px;
+       }
+       #btn:hover{
+        background-color: #ff4500;
+       }
+    </style>
+</head>
+<body>
+
+    <textarea name="qwerty" id="ak" cols="50" rows="15" value = ""></textarea>
+    
+    <main>
+        <span id="sp1"></span> <br>
+        <span id="sp2"></span>
+    </main>
+    <button id="btn">Submit</button>
+
+    <script>
+        
+        const btn = document.getElementById("btn")
+
+        btn.addEventListener("click" , () => {
+
+            const text = document.getElementById("ak").value.length
+            const txt = document.getElementById("ak").value
+      
+            let x = /\w+/g
+            let y = txt.match(x)
+            y = y.length
+
+            console.log(y);
+            console.log(text);
+
+        const sp1 = document.getElementById("sp1")
+        const sp2 = document.getElementById("sp2")
+
+        sp1.innerText = `The length is  - ${text}`
+        sp2.innerText = `The chacter is  - ${y}`
+
+        })
+    </script>
+</body>
+</html>

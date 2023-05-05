@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.headerul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    color: #000000;
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: none;
+    border: none;
+}
+
+a:hover{
+    color: #0044ff;
+}
+
+a:active{
+    color: #ff0000  ;
+}
+
+
+hr{
+    border:1px solid #000000;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    box-shadow: 0 0 10px #000000;
+    border-radius: 5px;
+    background-color: wheat;
+    height: 450px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 7px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+.input1{
+  padding: 5px ;
+  border: none;
+}
+
+button{
+    color: #ffffff;
+    background-color: #228b22;
+    padding: 3px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+color: #000000;
+background-color: #ffffff;
+}

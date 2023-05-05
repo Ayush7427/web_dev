@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #txt{
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="txt"></div>
+
+<script>
+const x = document.getElementById("txt")
+let i = 1 
+let name  = "Ayush Rana"
+
+function type() {
+    let new_name = name.slice(0 , i)
+    x.innerText  = new_name
+    i > name.length ? i = 1 : i++
+    setTimeout(() => {type()} , 200)
+}
+
+type();
+</script>
+</body>
+</html>

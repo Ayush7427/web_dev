@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdcd89c;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+ul{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+li{
+    cursor: pointer;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #ffffff;
+    background: #000;
+    padding: 3px 7px;
+}
+
+a:active{
+    color: #ff0000;
+}
+
+main{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.lhs{
+    background-image: url(https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/b3e617dcc5341797f3dab8c75755f41e8afc7320/11%20Feb%202023/Multi-Page%20Website/images/stethoscope.png);
+    margin-left: 40px;
+}
+
+h1{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+p{
+    font-weight: 500; 
+    margin-bottom: 17px;
+}
+
+.b1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+}
+
+button{
+    color: #ffffff;
+    padding: 4px 15px;
+    background-color: #22b322;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.ar2{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.yellow , .green , .doctor{
+position: absolute;
+right: 0;
+}
+
+.green{
+width: 25%;
+bottom: 35px;
+}
+
+.yellow{
+    width: 20%;
+    bottom: 10px;
+}
+
+.doctor{
+    height: 70%;
+    top: 29%;
+}
+
+@media screen and (max-width:500px) {
+    img{
+        display: none;
+    }
+
+    ul , nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

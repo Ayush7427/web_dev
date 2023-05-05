@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <button id="inc">add 1</button>
+   <button id="val">0</button>
+   <button id="dec">sub 1</button>
+   
+   <script>
+  const add =  document.getElementById("inc")
+  const rem =  document.getElementById("val")
+  const sub =  document.getElementById("dec")
+
+  let a = 0
+  add.addEventListener("click" , ()=> {
+    a++;
+    rem.innerText = a
+    console.log(a);
+  })
+   </script>
+</body>
+</html>
