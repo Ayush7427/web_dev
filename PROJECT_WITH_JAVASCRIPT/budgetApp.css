@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+font-family: 'Amatic SC', cursive;
+font-family: 'Andika', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Poppins', sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+h1{
+    font-weight: 700;
+    font-style: italic;
+}
+header{
+    margin-bottom: 20px;
+}
+
+.mainSection{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.lhs{
+
+    padding: 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.first_lhs{
+    border: 2px solid #000000;
+    padding: 51px;   
+    border: 2px ridge #228b22;
+}
+
+.second_lhs{
+    border: 2px solid #000000;
+    padding: 30px;
+    border: 2px ridge #ff0000;
+}
+
+label , input{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px ridge #0000ffac;
+}
+
+button{
+    padding: 7px;
+    font-weight: 600;
+    color: #228b22;
+    cursor: pointer;
+}
+
+.btn1{
+    border: 1px ridge #228b22;
+    border-radius: 5px;
+ 
+}
+
+.btn1:hover{
+    border: 1px ridge #228b2286;
+    color: #228b2286;
+}
+
+.btn2{
+    border: 1px ridge #ff0000;
+    border-radius: 5px;
+}
+
+.rhs{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: column;
+}
+
+.rhs1{
+    
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.footerSection{
+   
+    padding: 50px;
+}
+
+.pistol{
+    margin-bottom: 15px;
+}
+
+.velly1{
+    margin-top: 15px;
+    font-size: xx-large;
+    color: #228b22;
+}
+
+.velly2{
+    margin-top: 15px;
+    font-size: xx-large;
+    color: #ff0000;
+}
+
+.velly3{
+    margin-top: 15px;
+    font-size: xx-large;
+}
+
+.footerSection{
+    display: none;
+    font-weight: 700;
+    color: #000000;
+    background-color: #ff0000;
+    padding: 10px 20px;
+}

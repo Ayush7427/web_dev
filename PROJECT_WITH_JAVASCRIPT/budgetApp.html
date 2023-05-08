@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="./budgetApp.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika:ital,wght@1,700&family=Fira+Sans:wght@900&family=IBM+Plex+Mono:wght@500&family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <h1>BUDGET APP</h1>
+    </header>
+
+                  <!-- main section -->
+    <main class="mainSection">
+
+                <!-- left hand side -->
+        <div class="lhs">
+
+                  <!-- siblings 1 -->
+            <div class="first_lhs">
+
+                <label for="">Please Enter Your Budget</label> <br>
+                <input type="number" id="yourBudget" class="qwerty" value=""> <br>
+                <button class="btn1" id="btn">Calculate</button>
+
+            </div>
+
+                  <!-- siblings 2 -->
+            <div class="second_lhs">
+                <label for="">Please Enter Your Expense</label> <br>
+                <input type="text" id="expense" class="expenseText" value=""> <br>
+                <label for="">Please Enter Expense Amount</label> <br>
+                <input type="number" id="amount" class="expenseAmount" value=""> <br>
+                <button class="btn2" id="btn1">Add Expense</button>
+            </div>
+        </div>
+
+        <!-- right hand side -->
+        <div class="rhs">
+
+            <div class="rhs1">
+
+                <div class="first_rhs">
+                    <h2 class="pistol">BUDGET</h2> <br>
+                    <i class="fa-sharp fa-solid fa-credit-card fa-bounce fa-4x" style="color: #1eb464;"></i>
+                    <h2 class="velly1">$ 0</h2>
+                </div>
+    
+                <div class="first_rhs">
+                    <h2 class="pistol">EXPENSE</h2> <br>
+                    <i class="fa-sharp fa-solid fa-wallet fa-bounce fa-4x" style="color: #1818bb;"></i>
+                    <h2 class="velly2">$ 0</h2>
+                </div>
+    
+                <div class="first_rhs">
+                    <h2 class="pistol">BALANCE</h2> <br>
+                    <i  class="fa-solid fa-dollar-sign fa-bounce fa-4x" style="color: #e90e0e;" ></i>
+                    <h2 class="velly3">$ 0</h2>
+                    
+                </div>
+
+            </div>
+
+            <div class="footerSection">
+                
+              </div>
+
+            </div>
+
+         
+    </main>
+
+  <script src="./budgetApp.js"></script>
+</body>
+</html>
