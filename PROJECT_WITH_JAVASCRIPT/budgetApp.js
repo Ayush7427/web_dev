@@ -31,7 +31,7 @@ btn2.addEventListener("click" , () => {
     console.log(amount);
     console.log(nameOfExpense);
 
-    if(amount == 0 || nameOfExpense == null){
+    if(amount < 0 || nameOfExpense === ""){
         val.innerHTML = 'Invalid Expense'
     }
     else{
