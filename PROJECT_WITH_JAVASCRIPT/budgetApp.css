@@ -15,6 +15,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+background-color: #79793b52;
 }
 
 h1{
@@ -46,13 +47,15 @@ header{
 .first_lhs{
     border: 2px solid #000000;
     padding: 51px;   
-    border: 2px ridge #228b22;
+    border: 5px ridge #228b22;
+    box-shadow:  0 0 0 10px #000000;
 }
 
 .second_lhs{
     border: 2px solid #000000;
     padding: 30px;
-    border: 2px ridge #ff0000;
+    border: 4px ridge #ff0000;
+    box-shadow:  0 0 0 10px #000000;
 }
 
 label , input{
