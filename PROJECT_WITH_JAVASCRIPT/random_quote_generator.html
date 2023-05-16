@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font - poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika:ital,wght@1,700&family=Fira+Sans:wght@900&family=IBM+Plex+Mono:wght@500&family=Poppins&display=swap" rel="stylesheet">
+
+<!-- applying css  -->
+    <style>
+
+        body{
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Andika', sans-serif;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'IBM Plex Mono', monospace;
+            font-family: 'Poppins', sans-serif;
+            background-color: #a4a3a3ad;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mainSection{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: 2px ridge #000000;
+            padding: 30px 50px;
+            border-radius: 13px;
+            box-shadow:  0 0 10px #000000;
+        }
+
+        h1{
+            text-align: center;
+            font-weight: 800;
+        }
+
+        .ptag{
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        #btn{
+            background-color: #228b22;
+            padding: 7px 70px;
+            border: none;
+            border-radius: 7px;
+            font-weight: 700;
+            text-align: center;
+            font-size: large;
+            cursor: pointer;
+        }
+        #btn:hover{
+            background-color: #228b22a0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <main class="mainSection">
+
+        <h1>Random Quote Generator</h1>
+
+        <p class="ptag" id="displayItem"></p>
+
+        <button id="btn">Generate</button>
+
+    </main>
+<script src="./random_quote_generator.js"></script>
+
+</body>
+
+</html>
