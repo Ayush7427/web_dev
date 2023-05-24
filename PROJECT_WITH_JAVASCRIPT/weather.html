@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Andika:ital,wght@1,700&family=Fira+Sans:wght@900&family=IBM+Plex+Mono:wght@500&family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./weather.css">
+
+</head>
+
+<body>
+    
+    <main class="main-section">
+
+        <header><i class="fa-solid fa-arrow-left" style="color: #43AFFC;"></i> Weather App</header>
+
+        <section class="input-part">
+
+            <p class="info-txt"></p>
+
+            <input type="text" placeholder="Enter city name" spellcheck="false" required>
+
+            <div class="separator"></div>
+            <button>Get Device Location</button>
+
+        </section>
+
+        <section class="weather-part">
+            
+            <img src="./images/cloud.png" alt="Weather Icon">
+
+            <div class="temp">
+                <span class="numb">_</span>
+                <span class="deg">°</span>C
+            </div>
+
+            <div class="weather">_ _</div>
+
+            <div class="location">
+                <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                <span>_ _ , _ _</span>
+            </div>
+
+            <div class="bottom-details">
+
+                <div class="column feels">
+
+                    <i class="fa-solid fa-temperature-half" style="color: #43AFFC;"></i>
+
+                    <div class="details">
+
+                        <div class="temp">
+
+                            <span class="numb-2">_</span>
+                            <span class="deg">°</span>C
+
+                        </div>
+
+                        <p>Feels like</p>
+
+                    </div>
+
+                </div>
+
+            
+                <div class="column humidity">
+
+                    <i class="fa-solid fa-droplet" style="color: #43AFFC;"></i>
+
+                    <div class="details">
+
+                        <span >_</span>
+                        <p>Humidity</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+   
+    <script src="./weather.js"></script>
+    
+</body>
+</html>
