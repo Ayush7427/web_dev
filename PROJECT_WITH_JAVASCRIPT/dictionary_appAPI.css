@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Amatic SC', cursive;
+font-family: 'Andika', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Poppins', sans-serif;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #ae9cff;
+}
+
+.header{
+font-weight: 900;
+font-size: x-large;
+color: #ae9cff;
+text-decoration: wavy;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+    width: 500px;
+    background: #ffffff;
+    border-radius: 1ex;
+    padding: 20px 50px;
+}
+
+#searchBox{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 45px;
+}
+
+input{
+    font-family: 'Amatic SC', cursive;
+font-family: 'Andika', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Poppins', sans-serif;
+    padding: 5px 45px;
+    width: 75%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: medium;
+    border-bottom: 3px solid #ae9cff;
+}
+
+.btn{
+font-family: 'Amatic SC', cursive;
+font-family: 'Andika', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background: #ae9cff;
+    border: none;
+    padding: 5px 20px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.btn:hover{
+    background: #ae9cffd8;
+}
+
+.search{
+display: flex;
+justify-content: center;
+    gap: 245px;
+    margin-top: 50px;
+    padding: 5px 40px;
+    margin-bottom: 25px;
+}
+
+.search i{
+    padding: 3px 10px;
+    cursor: pointer;
+    color: #ae9cff;
+    font-size: 20px;
+}
+
+.search i:hover{
+    color: #ae9cffd8;
+}
+
+.z{
+  border: none;
+  background: #ffffff;      
+}
+.search .tab{
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.sample1{
+    color: #c9c9c9;
+    font-weight: 300;
+}
+
+.content{
+    font-weight: 500;
+}
+
+.clas{
+    border-left: 0.3rem solid #ae9cff;
+    margin-top: 7px;
+}
+
