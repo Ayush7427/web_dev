@@ -10,7 +10,7 @@ const locationBtn =  inputPart.querySelector("button")
 
 let  wIcon = document.querySelector(".weather-part img")
 
-const apiKey = "c85445b1281da3818a09c714c42fc2d5"
+const apiKey = "*********************************"
 
 let arrowBack = wrapper.querySelector("header i")
 
