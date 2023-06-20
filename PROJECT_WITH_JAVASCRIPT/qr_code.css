@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Amatic SC', cursive;
+font-family: 'Andika', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Poppins', sans-serif;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #43AFFC;
+}
+
+.wrapper{
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #ffffff;
+}
+
+.text , .section{
+    display: flex;   
+    flex-direction: column;
+}
+
+h3{
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+p{
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img{
+    height: 200px;
+}
+
+.inp{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+    border: 1px solid #bdbdbf;
+    outline: none ;
+    border-radius: 5px;
+}
+
+.inp:focus{
+    border: .2rem solid #43AFFC;
+}
+
+.btn{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 50px;
+    font-weight: 500;
+    border: 1px solid #bdbdbf;
+    color: #ffffff;
+    background: #43AFFC;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background: #43affc9e; 
+}
+
+.QR{
+    border: 1px solid #bdbdbf;
+    padding: 0px 50px;
+}
+
+.qrCode{
+    padding: 15px;
+}
